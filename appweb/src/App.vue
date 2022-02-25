@@ -11,7 +11,7 @@
             <b-nav-item to="/CompPlayas">Playas</b-nav-item>
             <b-nav-item href="#">Bosques</b-nav-item>
             <b-nav-item href="#">Simbolos Patrioticos</b-nav-item>
-            <b-nav-item href="#">Platillos Tipicos</b-nav-item>
+            <b-nav-item to='/platillos_tipicos'>Platillos Tipicos</b-nav-item>
             
           </b-navbar-nav>
         </b-collapse>
