@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Bienvenidos al salvador</h1>
+        <h1>Visita nuestras magnificas playas</h1>
         <playas-view/>
     </div>
 </template>
