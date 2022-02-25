@@ -1,22 +1,35 @@
 <template>
   <div id="app">
     <div>
-      <b-nav tabs>
-        <b-nav-item active>Inicio</b-nav-item>
-        <b-nav-item>Playas</b-nav-item>
-        <b-nav-item>Zonas verdes</b-nav-item>
-        <b-nav-item>Simbolos Patrioticos</b-nav-item>
-        <b-nav-item>Platillos tipicos</b-nav-item>
-      </b-nav>
+      <b-navbar toggleable="lg" type="dark" variant="dark">
+        <b-navbar-brand to="/CompInicio">Turismo Salvadoreño</b-navbar-brand>
+
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+        <b-collapse id="nav-collapse" is-nav>
+          <b-navbar-nav>
+            <b-nav-item to="/CompPlayas">Playas</b-nav-item>
+            <b-nav-item href="#">Bosques</b-nav-item>
+            <b-nav-item href="#">Simbolos Patrioticos</b-nav-item>
+            <b-nav-item href="#">Platillos Tipicos</b-nav-item>
+            
+          </b-navbar-nav>
+        </b-collapse>
+      </b-navbar>
     </div>
-    <div class="card bg-dark text-white">
-      <img src="https://cdn1.intriper.com/wp-content/uploads/2020/07/22100247/Salto-de-Malacatiup%C3%A1n-un-lugar-so%C3%B1ado-para-hacer-turismo-rural-en-El-Salvador-1.jpg" class="card-img" alt="..." width="500" height="500">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text">Last updated 3 mins ago</p>
-      </div>
-    </div>
+    <b-container fluid class="p-4 bg-dark">
+      <b-row>
+        <b-col>
+          <b-img thumbnail fluid src="https://assets.cdnelnuevodiario.com/cache/05/ca/05ca4158bc37eeddbae321699628958d.jpg" alt="Image 1"></b-img>
+        </b-col>
+        <b-col>
+          <b-img thumbnail fluid src="https://revistasumma.com/wp-content/uploads/2018/02/el-salvador.jpg" alt="Image 2"></b-img>
+        </b-col>
+        <b-col>
+          <b-img thumbnail fluid src="https://liberalsv.com/content/images/2018/09/Piramides-Mayas-De-El-Salvador-800x600.jpg" alt="Image 3"></b-img>
+        </b-col>
+      </b-row>
+    </b-container>
   
     <router-view/>
   </div>
