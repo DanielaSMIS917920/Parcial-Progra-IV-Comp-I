@@ -2,7 +2,7 @@
   <div id="app">
     <div>
       <b-navbar toggleable="lg" type="dark" variant="dark">
-        <b-navbar-brand to="/CompInicio">Turismo Salvadoreño</b-navbar-brand>
+        <b-navbar-brand to="/">Turismo Salvadoreño</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -42,6 +42,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
 }
 
 nav {
@@ -57,5 +58,14 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 
+#wrapper{
+   
+    width: 650px  ;
+    height: auto;
+    background-color: rgb(171, 175, 171);
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 10px;
+}
 
 </style>

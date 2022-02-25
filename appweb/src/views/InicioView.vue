@@ -1,15 +1,19 @@
 <template>
-    <div>
-        <h1>Bienvenidos al salvador</h1>
-        <inicio-view/>
+    <div id="app">
+        <br>
+        <br>
+        <h1>Bienvenidos a el Salvador</h1>
     </div>
 </template>
 
 <script>
-import Inicio from '../components/CompInicio.vue'
+
+import CompInicio from '@/components/CompInicio.vue'
 
 export default {
     name: 'InicioView',
-    components: { Inicio }
+    components:{
+        CompInicio
+    }
 }
 </script>

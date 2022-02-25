@@ -1,15 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 import platillos from '../views/platillos.vue'
+import InicioView from '../views/InicioView.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'CompInicio',
+    component: InicioView
   },
   {
     path: '/platillos_tipicos',
