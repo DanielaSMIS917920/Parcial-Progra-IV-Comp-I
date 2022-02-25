@@ -9,16 +9,15 @@
         <b-nav-item>Platillos tipicos</b-nav-item>
       </b-nav>
     </div>
-    <div>
-       <!-- Masthead-->
-        <header>
-            <div class="container"> <img src="https://villadelangelhotel.com/wp-content/uploads/2016/12/Palacio-Nacional-El-Salvador-1.png" width="1500" height="700">
-                <div class="masthead-subheading">Welcome To Our Studio!</div>
-                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
-            </div>
-        </header>
+    <div class="card bg-dark text-white">
+      <img src="https://cdn1.intriper.com/wp-content/uploads/2020/07/22100247/Salto-de-Malacatiup%C3%A1n-un-lugar-so%C3%B1ado-para-hacer-turismo-rural-en-El-Salvador-1.jpg" class="card-img" alt="..." width="500" height="500">
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Last updated 3 mins ago</p>
+      </div>
     </div>
+  
     <router-view/>
   </div>
 </template>
