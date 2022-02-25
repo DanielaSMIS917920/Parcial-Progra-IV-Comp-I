@@ -1,9 +1,24 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <div>
+      <b-nav tabs>
+        <b-nav-item active>Inicio</b-nav-item>
+        <b-nav-item>Playas</b-nav-item>
+        <b-nav-item>Zonas verdes</b-nav-item>
+        <b-nav-item>Simbolos Patrioticos</b-nav-item>
+        <b-nav-item>Platillos tipicos</b-nav-item>
+      </b-nav>
+    </div>
+    <div>
+       <!-- Masthead-->
+        <header>
+            <div class="container"> <img src="https://villadelangelhotel.com/wp-content/uploads/2016/12/Palacio-Nacional-El-Salvador-1.png" width="1500" height="700">
+                <div class="masthead-subheading">Welcome To Our Studio!</div>
+                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+            </div>
+        </header>
+    </div>
     <router-view/>
   </div>
 </template>
@@ -23,10 +38,12 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #000;
 }
 
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
+
 </style>
