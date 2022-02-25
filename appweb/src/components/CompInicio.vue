@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1>PUTOOOOO</h1>
-        <h1>3455555</h1>
+        <h1>PRUEBA DE INICIO</h1>
+        
     </div>
 </template>
 
