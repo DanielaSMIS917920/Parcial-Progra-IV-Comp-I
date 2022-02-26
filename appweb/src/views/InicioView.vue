@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <br>
-        <font color="171D1C" face="Open Sans"><h1><em>¡Bienvenidos al pulgarcito de America!</em></h1></font>
+        <font color="171D1C" face="Open Sans"><h1><em>¡Bienvenidos al pulgarcito de América!</em></h1></font>
         <br>
         <div class="text-center">
             <font color="171D1C" face="Open Sans"><h4>Le dicen ‘El Pulgarcito de América’ por el tamaño minúsculo de su territorio. Es el único país de Centroamérica que no tiene costas en el Caribe y en su interior alberga maravillas históricas y naturales que muchos países envidiarían. Así es El Salvador, un lugar lleno de bellas zonas verdes para ir con compañia, un lugar donde admirar sus bellos mares y conocer su historia. </h4></font>

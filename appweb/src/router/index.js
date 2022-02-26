@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import platillos from '../views/platillos.vue'
 import InicioView from '../views/InicioView.vue'
+import PlayasView from '../views/PlayasView.vue'
 
 Vue.use(VueRouter)
 
@@ -10,6 +11,11 @@ const routes = [
     path: '/',
     name: 'CompInicio',
     component: InicioView
+  },
+  {
+    path: '/CompPlayas',
+    name: 'CompPlayas',
+    component: PlayasView
   },
   {
     path: '/platillos_tipicos',
