@@ -12,37 +12,72 @@
                     <div class="text-center">
                         <br>
                         <br>
-                        <h2 class="section-heading text-uppercase">Services</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <font color="171D1C" face="Open Sans"><h2><em>En nuestra pagina encontraras: </em></h2></font>
+                        <br>
                     </div>
                     <div class="row text-center">
                         <div class="col-md-4">
-                            <span class="fa-stack fa-4x">
-                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                                <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                            </span>
-                            <h4 class="my-3">E-Commerce</h4>
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            <font color="171D1C" face="Open Sans"><h4><em>Maravillosas playas</em></h4></font>
+                            <p class="text-muted">Conoces algunas de las playas más famosas y bellas de El Salvador, zonas donde apreciar como el sol se oculta entre el inmenso mar.</p>
                         </div>
                         <div class="col-md-4">
-                            <span class="fa-stack fa-4x">
-                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                                <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                            </span>
-                            <h4 class="my-3">Responsive Design</h4>
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            <font color="171D1C" face="Open Sans"><h4><em>Zonas naturales</em></h4></font>
+                            <p class="text-muted">Nuestro país aunque sea pequeño posee extensas zonas verdes llenos de flora y fauna, conoce uno de sus gloriosos bosques y parques para visitar algun día.</p>
                         </div>
                         <div class="col-md-4">
-                            <span class="fa-stack fa-4x">
-                                <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                                <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                            </span>
-                            <h4 class="my-3">Web Security</h4>
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                            <font color="171D1C" face="Open Sans"><h4><em>Gastronomia y mucho más...</em></h4></font>
+                            <p class="text-muted">Conoce las distintas delicias culinarias salvadoreñas, su cultura y muchos detalles más aquí.</p>
                         </div>
                     </div>
                 </div>
            </section>
+           <section>
+            <div class="container">
+                <div class="text-center">
+                    <br>
+                    <br>
+                    <font color="171D1C" face="Open Sans"><h2><em>Equipo desarrollador: </em></h2></font>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="https://compoundacademy.com/wp-content/uploads/2021/11/job.png" alt="..." />
+                            <font color="171D1C" face="Open Sans"><h4><em>Daniela Alvarez</em></h4></font>
+                            <p class="text-muted">SMIS917920</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="https://compoundacademy.com/wp-content/uploads/2021/11/job.png" alt="..." />
+                            <font color="171D1C" face="Open Sans"><h4><em>Rodolfo Murillo</em></h4></font>
+                            <p class="text-muted">SMIS903320</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="https://compoundacademy.com/wp-content/uploads/2021/11/job.png" alt="..." />
+                            <font color="171D1C" face="Open Sans"><h4><em>Elena Ruiz</em></h4></font>
+                            <p class="text-muted">SMIS004820</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="https://compoundacademy.com/wp-content/uploads/2021/11/job.png" alt="..." />
+                            <font color="171D1C" face="Open Sans"><h4><em>Hayci Zuniga</em></h4></font>
+                            <p class="text-muted">SMIS947720</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="https://compoundacademy.com/wp-content/uploads/2021/11/job.png" alt="..." />
+                            <font color="171D1C" face="Open Sans"><h4><em>Christopher Murillo</em></h4></font>
+                            <p class="text-muted">SMIS903520</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         </div>
 
     </div>
