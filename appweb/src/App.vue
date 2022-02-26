@@ -2,16 +2,16 @@
   <div id="app">
     <div>
       <b-navbar toggleable="lg" type="dark" variant="dark">
-        <b-navbar-brand to="/">Turismo Salvadoreño</b-navbar-brand>
+        <b-navbar-brand to="/"><em>Turismo Salvadoreño</em></b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <b-nav-item to="/CompPlayas">Playas</b-nav-item>
-            <b-nav-item href="#">Bosques</b-nav-item>
-            <b-nav-item href="#">Simbolos Patrioticos</b-nav-item>
-            <b-nav-item to='/platillos_tipicos'>Platillos Tipicos</b-nav-item>
+            <b-nav-item to="/CompPlayas"><em>Playas</em></b-nav-item>
+            <b-nav-item href="#"><em>Bosques</em></b-nav-item>
+            <b-nav-item href="#"><em>Simbolos Patrios</em></b-nav-item>
+            <b-nav-item to='/platillos_tipicos'><em>Delicias Salvadoreñas</em></b-nav-item>
             
           </b-navbar-nav>
         </b-collapse>
@@ -41,7 +41,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  background-color: #fef9ef;
+  min-height: 100vh;
   
 }
 
@@ -51,21 +52,14 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #000;
+  color: #16BAC5;
 }
 
 nav a.router-link-exact-active {
   color: #42b983;
 }
 
-#wrapper{
-   
-    width: 650px  ;
-    height: auto;
-    background-color: rgb(171, 175, 171);
-    margin: 0 auto;
-    margin-top: 200px;
-    border-radius: 10px;
-}
-
+.nav-item {
+        color: #16BAC5;
+    }
 </style>
