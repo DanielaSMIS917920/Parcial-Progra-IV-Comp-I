@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import platillos from '../views/platillos.vue'
 import InicioView from '../views/InicioView.vue'
 import PlayasView from '../views/PlayasView.vue'
+import BosquesV from '../views/BosquesV.vue'
 import simbolosPatrios from '../components/simbolosPatrios.vue'
 import Turismo from '../views/Turismo.vue'
 
@@ -18,6 +19,11 @@ const routes = [
     path: '/CompPlayas',
     name: 'CompPlayas',
     component: PlayasView
+  },
+  {
+    path: '/bosquesC',
+    name: 'bosquesC',
+    component: BosquesV
   },
   {
     path: '/platillos_tipicos',
