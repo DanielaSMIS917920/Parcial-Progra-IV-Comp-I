@@ -4,6 +4,7 @@ import platillos from '../views/platillos.vue'
 import InicioView from '../views/InicioView.vue'
 import PlayasView from '../views/PlayasView.vue'
 import simbolosPatrios from '../components/simbolosPatrios.vue'
+import Turismo from '../views/Turismo.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/simbolosPatrios',
     name: 'simbolosPatrios',
     component: simbolosPatrios
+  },
+    {
+    path: '/viajes',
+    name: 'viajes',
+    component: Turismo
   },
   {
     path: '/about',
