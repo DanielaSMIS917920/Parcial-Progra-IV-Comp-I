@@ -1,9 +1,11 @@
 <template>
+<!--Codigo y estructura del apartado Playas de la pagina web-->
     <div id="app">
+        <!--Agregamos el titulo usando font para agregar el color y tipografia-->
         <br>
         <font color="171D1C" face="Open Sans"><h1><em>Playas salvadoreñas que debes visitar</em></h1></font>
         <br>
-        <!-- Content section 1-->
+         <!--Dividimos por seccion para imagen con su informacion y utilizando la clase Container-->
         <section id="scroll">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
@@ -83,6 +85,24 @@
                             <p>En un entorno de acantilados y cocoteras, se encuentra situada playa El Sunzal, una hermosa playa de arenas oscuras y grandes olas, reconocida internacionalmente como uno de los mejores rincones del planeta para la practica de surf.
                                 Además de surf, esta playa cuenta con hermosos entornos para pasear y zonas de agua calma para practicar snorkeling y buceo de baja profundidad. Frente a la playa, se puede disfrutar de algún platillo típico, en alguno de los tantos restaurantes alineados frente al mar.</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!--Toda la parte de playas fue realizado por Daniela Alvarez-->
+        <section>
+            <div class="container">
+                <div class="text-center">
+                    <br>
+                    <br>
+                    <font color="171D1C" face="Open Sans"><h2><em>Realizado por: </em></h2></font>
+                    <br>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="https://compoundacademy.com/wp-content/uploads/2021/11/job.png" alt="..." />
+                        <font color="171D1C" face="Open Sans"><h4><em>Daniela Alvarez</em></h4></font>
+                        <p class="text-muted">SMIS917920</p>
                     </div>
                 </div>
             </div>

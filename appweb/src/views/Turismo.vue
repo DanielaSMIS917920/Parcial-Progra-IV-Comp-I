@@ -1,6 +1,9 @@
 <template>
     <div class="app">
-    <Viajes title="Lugares Turisticos"/>
+        <br>
+        <font color="171D1C" face="Open Sans"><h1><em>¡Haz tu reservación ya!</em></h1></font>
+        <br>
+    <Viajes/>
     
     </div>
 </template>

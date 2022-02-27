@@ -1,4 +1,5 @@
 <template>
+ <!--Creacion de la barra de navegacion y direccionar a los componentes y vistas-->
   <div id="app">
     <div>
       <b-navbar toggleable="lg" type="dark" variant="dark">

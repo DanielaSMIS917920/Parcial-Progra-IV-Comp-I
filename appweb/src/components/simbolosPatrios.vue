@@ -1,9 +1,12 @@
 <template>
+<!--Codigo y estructura del apartado Simbolos patrios de la pagina web-->
 <div class="simbolos">
+  <!--Agregamos el titulo usando font para agregar el color y tipografia-->
    <font color="171D1C" face="Open Sans"><h1><em>Simbolos Patrios de El Salvador</em></h1></font>
     <div class="container px-5">
      <div class="row gx-5">
        <div class="col-lg-8 align-center">
+         <!--Usamos Card de Vue Bootstrap para agregar la imformacion e imagenes-->
          <b-card-group deck>
             <b-card title="Bandera Nacional" img-src="https://www.elsalvadormipais.com/wp-content/uploads/2017/01/bandera-de-el-salvador.png" img-alt="Image" img-top>
               <b-card-text>
@@ -67,6 +70,24 @@
          </div>
       </div>
    </div>
+   <!--La parte de Simbolos Patrios fue realizado por Christopher Murillo-->
+   <section>
+            <div class="container">
+                <div class="text-center">
+                    <br>
+                    <br>
+                    <font color="171D1C" face="Open Sans"><h2><em>Realizado por: </em></h2></font>
+                    <br>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="https://compoundacademy.com/wp-content/uploads/2021/11/job.png" alt="..." />
+                        <font color="171D1C" face="Open Sans"><h4><em>Christopher Murillo</em></h4></font>
+                        <p class="text-muted">SMIS903520</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 </div>
 
 </template>

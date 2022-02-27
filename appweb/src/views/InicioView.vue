@@ -1,12 +1,17 @@
 <template>
+<!--Codigo y estructura del apartado de Inicio de la pagina web-->
     <div id="app">
+        <!--Titulo-->
         <br>
         <font color="171D1C" face="Open Sans"><h1><em>¡Bienvenidos al pulgarcito de América!</em></h1></font>
         <br>
+        <!--Texto inicial-->
         <div class="text-center">
             <font color="171D1C" face="Open Sans"><h4>Le dicen ‘El Pulgarcito de América’ por el tamaño minúsculo de su territorio. Es el único país de Centroamérica que no tiene costas en el Caribe y en su interior alberga maravillas históricas y naturales que muchos países envidiarían. Así es El Salvador, un lugar lleno de bellas zonas verdes para ir con compañia, un lugar donde admirar sus bellos mares y conocer su historia. </h4></font>
          </div>
         <div>
+            <!--Separamos por secciones las parte de contenido de la pagina-->
+            <!--Breve resumen de la pagina en general-->
             <section class="page-section" id="services">
                 <div class="container">
                     <div class="text-center">
@@ -32,6 +37,7 @@
                 </div>
            </section>
            <section>
+               <!--Integrantes del equipo-->
             <div class="container">
                 <div class="text-center">
                     <br>

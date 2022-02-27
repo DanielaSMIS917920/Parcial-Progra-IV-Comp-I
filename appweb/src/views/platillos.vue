@@ -1,9 +1,12 @@
 <template>
-    <div>
-        <h1>Delicias Salvadoreñas</h1>
-
-
+<!--Codigo y estructura del apartado Platillos tipicos de la pagina web-->
+    <div id="app">
+        <!--Agregamos el titulo usando font para agregar el color y tipografia-->
+        <br>
+        <font color="171D1C" face="Open Sans"><h1><em>Delicias que debes probar</em></h1></font>
+        <br>
         <div>
+             <!--Usamos Card de Vue Bootstrap para agregar la imformacion e imagenes-->
             <b-card-group deck>
                 
                 <b-card title="Pupusas" img-src="https://tipsparatuviaje.com/wp-content/uploads/2020/02/pupusas-comida.jpg" img-alt="Image" img-top>
@@ -58,6 +61,24 @@
                     </b-card-text>
                 </b-card>
             </b-card-group>
+            <!--La parte de platillos fue realizada por Rodolfo Murillo-->
+            <section>
+                <div class="container">
+                    <div class="text-center">
+                        <br>
+                        <br>
+                        <font color="171D1C" face="Open Sans"><h2><em>Realizado por: </em></h2></font>
+                        <br>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="https://compoundacademy.com/wp-content/uploads/2021/11/job.png" alt="..." />
+                            <font color="171D1C" face="Open Sans"><h4><em>Rodolfo Murillo</em></h4></font>
+                            <p class="text-muted">SMIS903320</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </div>
     </div>

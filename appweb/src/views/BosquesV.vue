@@ -1,10 +1,14 @@
 <template>
+<!--Codigo y estructura del apartado Bosques de la pagina web-->
     <div>
+        <!--Titulo-->
+        <!--Utilizamos font para agregar el color de letra y tipografia-->
         <br>
         <font color="171D1C" face="Open Sans"><h1><em>Frondosos Bosques Y Parques</em></h1></font>
         <br>
         
         <div class="container px-5"> 
+            <!--Utilizamos el componente Card de Vue Bootstrap para agregar la informacion e imagenes-->
             <b-card no-body class="overflow-hidden" style="max-width: 1199px;">
                 <b-row no-gutters>
                 <b-col md="6">
@@ -136,6 +140,24 @@
                 </b-row>
             </b-card>
         </div>
+        <!--La parte de Bosques fue realizada por Elena Ruiz-->
+        <section>
+            <div class="container">
+                <div class="text-center">
+                    <br>
+                    <br>
+                    <font color="171D1C" face="Open Sans"><h2><em>Realizado por: </em></h2></font>
+                    <br>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="https://compoundacademy.com/wp-content/uploads/2021/11/job.png" alt="..." />
+                        <font color="171D1C" face="Open Sans"><h4><em>Elena Ruiz</em></h4></font>
+                        <p class="text-muted">SMIS004820</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 
