@@ -12,6 +12,7 @@
             <b-nav-item href="#"><em>Bosques</em></b-nav-item>
             <b-nav-item to="simbolosPatrios"><em>Simbolos Patrios</em></b-nav-item>
             <b-nav-item to='/platillos_tipicos'><em>Delicias Salvadoreñas</em></b-nav-item>
+            <b-nav-item to='/viajes'>Viajes Turisticos</b-nav-item>
             
           </b-navbar-nav>
         </b-collapse>
