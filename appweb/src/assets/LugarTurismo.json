@@ -1,0 +1,29 @@
+[
+        {"turistName":"Tazumal","Location":"Santa Ana","description":" La zona arqueológica, ubicada en Chalchuapa, a 80 kilómetros de San Salvador, es uno de los sitios naturales de El Salvador más importantes.", "price":150.00,"reservation":1,"img":"taz.jpg"}, 
+
+        {"turistName":"Volcán de Izalco","Location":"Sonsonate","description":"Cuenta con un sendero muy seguro por el que puede subirse hasta la cima, el recorrido demora menos de 2 horas. Además, una vez que llegues a la cumbre se puede apreciar una increíble vista del Océano Pacífico.", "price":125.00,"reservation":3},
+
+ {"turistName":"Suchitoto","Location":"Cuscatlán","description":"En Suchitoto podrás disfrutar de festivales de arte, teatro y cine, de iglesias y plazas. También se encuentra uno de las principales atracciones naturales del país, el Lago de Suchitlán.", "price":130.00,"reservation":2},
+
+
+ {"turistName":"Cerro Verde","Location":"Santa Ana","description":"El Cerro Verde, ubicado a 19 kilómetros de San Salvador en la cordillera de Apaneca, es un volcán inactivo y la montaña principal dentro del Parque Nacional de Los Volcanes.", "price":250.00,"reservation":1},
+
+ {"turistName":"Cerro Verde","Location":"Santa Ana","description":"El Cerro Verde, ubicado a 19 kilómetros de San Salvador en la cordillera de Apaneca, es un volcán inactivo y la montaña principal dentro del Parque Nacional de Los Volcanes.", "price":250.00,"reservation":1},
+
+
+ {"turistName":"El Pital","Location":"Chalatenago","description":"El Pital es el lugar perfecto para los amantes de los espacios abiertos, el clima cálido que caracteriza a la mayoría de las zonas del país, en El Pital pueden alcanzarse los 3° centígrados.", "price":150.00,"reservation":3},
+
+ {"turistName":"Puerto de La Libertad ","Location":"Libertad","description":"Situado en el departamento que lleva el mismo nombre, a 32 kilómetros de San Salvado. Desde aquí parten tours hacia Playa el Tunco, la mejor playa de El Salvador para practicar surf.", "price":100.00,"reservation":4},
+
+ {"turistName":"Playa El Espino","Location":"Usulután","description":"Es conocida por ser una de las playas más extensas y bonitas de la costa oriental y por ser uno de los destinos románticos de El Salvador.", "price":50.00,"reservation":2},
+
+ {"turistName":"Parque Nacional Montecristo","Location":"Santa Ana","description":"Entre los principales atractivos turísticos de El Salvador están sus áreas naturales. El Parque Nacional Montecristo, también llamado el  El Trifinio, se sitúa en una zona protegida de Metapán, Santa Ana, a 117 kilómetros de San Salvador.", "price":220.00,"reservation":3},
+
+ {"turistName":"Parque Nacional El Boquerón","Location":"San salvador","description":"Está ubicado a 19 kilómetros de San Salvador.Si quieres visitar los lugares famosos de El Salvador, debes incluir al Parque Nacional El Boquerón en tu lista. Este monumento natural tiene mucho que ofrecer a los amantes de los espacios abiertos.", "price":250.00,"reservation":2}
+
+]
+
+
+
+            
+    
